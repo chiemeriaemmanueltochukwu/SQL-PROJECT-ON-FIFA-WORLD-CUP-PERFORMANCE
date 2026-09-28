@@ -1332,8 +1332,3 @@ SELECT
     'Player-Tournament Facts',
     COUNT(*)
 FROM fifa_dw.fact_player_tournament;
-
-
--- ============================================================
--- END OF FIFA WORLD CUP 2026 DATA WAREHOUSE BUILD
--- ============================================================
