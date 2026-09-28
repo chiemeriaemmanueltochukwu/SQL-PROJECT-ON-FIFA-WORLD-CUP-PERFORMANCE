@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>text{font-family:Arial,sans-serif;fill:#111} .b{fill:#fff;stroke:#222;stroke-width:2}.t{font-weight:700;font-size:22px}.s{font-size:16px}.a{stroke:#444;stroke-width:2;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#444"/></marker></defs>
+<text x="600" y="45" text-anchor="middle" class="t">FIFA World Cup 2026 — Star Schema</text>
+<rect x="425" y="260" width="350" height="150" rx="14" class="b"/><text x="600" y="305" text-anchor="middle" class="t">FACT_PLAYER_MATCH</text><text x="600" y="335" text-anchor="middle" class="s">54,600 rows</text><text x="600" y="365" text-anchor="middle" class="s">Grain: one player in one match</text>
+<rect x="55" y="115" width="270" height="105" rx="14" class="b"/><text x="190" y="155" text-anchor="middle" class="t">DIM_PLAYER</text><text x="190" y="185" text-anchor="middle" class="s">1,248 players</text>
+<rect x="55" y="500" width="270" height="105" rx="14" class="b"/><text x="190" y="540" text-anchor="middle" class="t">DIM_TEAM</text><text x="190" y="570" text-anchor="middle" class="s">48 teams</text>
+<rect x="875" y="115" width="270" height="105" rx="14" class="b"/><text x="1010" y="155" text-anchor="middle" class="t">DIM_MATCH</text><text x="1010" y="185" text-anchor="middle" class="s">1,050 matches</text>
+<rect x="875" y="500" width="270" height="105" rx="14" class="b"/><text x="1010" y="540" text-anchor="middle" class="t">DIM_STADIUM</text><text x="1010" y="570" text-anchor="middle" class="s">16 stadiums</text>
+<rect x="425" y="100" width="350" height="105" rx="14" class="b"/><text x="600" y="140" text-anchor="middle" class="t">FACT_PLAYER_TOURNAMENT</text><text x="600" y="170" text-anchor="middle" class="s">1,248 player summaries</text>
+<path d="M325 170 L425 285" class="a"/><path d="M325 550 L425 385" class="a"/><path d="M875 170 L775 285" class="a"/><path d="M875 550 L775 385" class="a"/><path d="M600 205 L600 260" class="a"/>
+<text x="1010" y="310" text-anchor="middle" class="s">opponent_team_key</text><text x="1010" y="333" text-anchor="middle" class="s">uses DIM_TEAM</text><text x="1010" y="356" text-anchor="middle" class="s">as a role-playing dimension</text>
+</svg>

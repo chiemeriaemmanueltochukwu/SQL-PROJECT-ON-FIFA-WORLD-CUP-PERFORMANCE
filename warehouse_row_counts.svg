@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<style>text{font-family:Arial,sans-serif;fill:#111}.t{font-weight:700;font-size:24px}.l{font-size:16px}.bar{fill:#777}.v{font-size:15px;font-weight:700}</style>
+<text x="550" y="45" text-anchor="middle" class="t">FIFA Warehouse — Verified Row Counts</text>
+<text x="550" y="75" text-anchor="middle" class="l">Counts from the completed warehouse validation</text>
+<g transform="translate(240,110)">
+<text x="0" y="35" class="l">fact_player_match</text><rect x="230" y="15" width="700" height="35" class="bar"/><text x="945" y="40" class="v">54,600</text>
+<text x="0" y="100" class="l">dim_match</text><rect x="230" y="80" width="13.5" height="35" class="bar"/><text x="260" y="105" class="v">1,050</text>
+<text x="0" y="165" class="l">dim_player</text><rect x="230" y="145" width="16" height="35" class="bar"/><text x="265" y="170" class="v">1,248</text>
+<text x="0" y="230" class="l">fact_player_tournament</text><rect x="230" y="210" width="16" height="35" class="bar"/><text x="265" y="235" class="v">1,248</text>
+<text x="0" y="295" class="l">dim_team</text><rect x="230" y="275" width="4" height="35" class="bar"/><text x="245" y="300" class="v">48</text>
+<text x="0" y="360" class="l">dim_stadium</text><rect x="230" y="340" width="4" height="35" class="bar"/><text x="245" y="365" class="v">16</text>
+</g></svg>

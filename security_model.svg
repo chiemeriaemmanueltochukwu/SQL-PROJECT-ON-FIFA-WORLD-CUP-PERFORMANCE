@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<style>text{font-family:Arial,sans-serif;fill:#111}.b{fill:#fff;stroke:#222;stroke-width:2}.t{font-weight:700;font-size:22px}.s{font-size:16px}.a{stroke:#444;stroke-width:2;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#444"/></marker></defs>
+<text x="600" y="45" text-anchor="middle" class="t">FIFA PostgreSQL — Role-Based Access Model</text>
+<rect x="425" y="80" width="350" height="85" rx="14" class="b"/><text x="600" y="120" text-anchor="middle" class="t">postgres database</text><text x="600" y="145" text-anchor="middle" class="s">FIFA warehouse + ML workspace</text>
+<rect x="45" y="250" width="240" height="125" rx="14" class="b"/><text x="165" y="290" text-anchor="middle" class="t">postgres</text><text x="165" y="320" text-anchor="middle" class="s">Superuser</text><text x="165" y="345" text-anchor="middle" class="s">Full access</text>
+<rect x="330" y="250" width="240" height="125" rx="14" class="b"/><text x="450" y="290" text-anchor="middle" class="t">fifa_admin</text><text x="450" y="320" text-anchor="middle" class="s">Full fifa_dw access</text><text x="450" y="345" text-anchor="middle" class="s">Not a superuser</text>
+<rect x="615" y="250" width="240" height="125" rx="14" class="b"/><text x="735" y="290" text-anchor="middle" class="t">fifa_analyst</text><text x="735" y="320" text-anchor="middle" class="s">Read-only fifa_dw</text><text x="735" y="345" text-anchor="middle" class="s">Analytics</text>
+<rect x="900" y="250" width="255" height="125" rx="14" class="b"/><text x="1027" y="290" text-anchor="middle" class="t">fifa_data_scientist</text><text x="1027" y="320" text-anchor="middle" class="s">Read fifa_dw</text><text x="1027" y="345" text-anchor="middle" class="s">Create in fifa_ml</text>
+<path d="M600 165 L165 250 M600 165 L450 250 M600 165 L735 250 M600 165 L1027 250" class="a"/>
+<rect x="900" y="475" width="255" height="85" rx="14" class="b"/><text x="1027" y="510" text-anchor="middle" class="t">fifa_ml</text><text x="1027" y="535" text-anchor="middle" class="s">Analysis / ML workspace</text><path d="M1027 375 L1027 475" class="a"/>
+</svg>
