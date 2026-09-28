@@ -1,7 +1,3 @@
-# Recommended Git Commit Plan
-
-Use these commits to tell the story of the project.
-
 1. `Initialize FIFA World Cup data warehouse project`
    - README
    - .gitignore
